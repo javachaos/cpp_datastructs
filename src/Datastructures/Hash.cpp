@@ -108,12 +108,13 @@ namespace Datastructures {
             return;
         }
         if (bucket.size() == 1) {
-            collisions++;
             bucket.clear();
             doubleSize();
             bucket.insert(p);
             this->table[index] = bucket;
             return;
+        } else if (bucket.size() > 1) {
+            collisions++;
         }
     }
 

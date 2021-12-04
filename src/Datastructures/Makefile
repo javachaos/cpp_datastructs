@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fred/min_heap/src
+CMAKE_SOURCE_DIR = /home/fred/cpp_datastructs/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fred/min_heap/src
+CMAKE_BINARY_DIR = /home/fred/cpp_datastructs/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/fred/min_heap/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/fred/min_heap/src/CMakeFiles /home/fred/min_heap/src/Datastructures/CMakeFiles/progress.marks
-	cd /home/fred/min_heap/src && $(MAKE) -f CMakeFiles/Makefile2 Datastructures/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fred/min_heap/src/CMakeFiles 0
+	cd /home/fred/cpp_datastructs/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/fred/cpp_datastructs/src/CMakeFiles /home/fred/cpp_datastructs/src/Datastructures/CMakeFiles/progress.marks
+	cd /home/fred/cpp_datastructs/src && $(MAKE) -f CMakeFiles/Makefile2 Datastructures/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fred/cpp_datastructs/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/fred/min_heap/src && $(MAKE) -f CMakeFiles/Makefile2 Datastructures/clean
+	cd /home/fred/cpp_datastructs/src && $(MAKE) -f CMakeFiles/Makefile2 Datastructures/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/fred/min_heap/src && $(MAKE) -f CMakeFiles/Makefile2 Datastructures/preinstall
+	cd /home/fred/cpp_datastructs/src && $(MAKE) -f CMakeFiles/Makefile2 Datastructures/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/fred/min_heap/src && $(MAKE) -f CMakeFiles/Makefile2 Datastructures/preinstall
+	cd /home/fred/cpp_datastructs/src && $(MAKE) -f CMakeFiles/Makefile2 Datastructures/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/fred/min_heap/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/fred/cpp_datastructs/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Datastructures/CMakeFiles/Datastructures.dir/rule:
-	cd /home/fred/min_heap/src && $(MAKE) -f CMakeFiles/Makefile2 Datastructures/CMakeFiles/Datastructures.dir/rule
+	cd /home/fred/cpp_datastructs/src && $(MAKE) -f CMakeFiles/Makefile2 Datastructures/CMakeFiles/Datastructures.dir/rule
 .PHONY : Datastructures/CMakeFiles/Datastructures.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ Datastructures: Datastructures/CMakeFiles/Datastructures.dir/rule
 
 # fast build rule for target.
 Datastructures/fast:
-	cd /home/fred/min_heap/src && $(MAKE) -f Datastructures/CMakeFiles/Datastructures.dir/build.make Datastructures/CMakeFiles/Datastructures.dir/build
+	cd /home/fred/cpp_datastructs/src && $(MAKE) -f Datastructures/CMakeFiles/Datastructures.dir/build.make Datastructures/CMakeFiles/Datastructures.dir/build
 .PHONY : Datastructures/fast
 
 heap.o: heap.cpp.o
@@ -131,7 +131,7 @@ heap.o: heap.cpp.o
 
 # target to build an object file
 heap.cpp.o:
-	cd /home/fred/min_heap/src && $(MAKE) -f Datastructures/CMakeFiles/Datastructures.dir/build.make Datastructures/CMakeFiles/Datastructures.dir/heap.cpp.o
+	cd /home/fred/cpp_datastructs/src && $(MAKE) -f Datastructures/CMakeFiles/Datastructures.dir/build.make Datastructures/CMakeFiles/Datastructures.dir/heap.cpp.o
 .PHONY : heap.cpp.o
 
 heap.i: heap.cpp.i
@@ -140,7 +140,7 @@ heap.i: heap.cpp.i
 
 # target to preprocess a source file
 heap.cpp.i:
-	cd /home/fred/min_heap/src && $(MAKE) -f Datastructures/CMakeFiles/Datastructures.dir/build.make Datastructures/CMakeFiles/Datastructures.dir/heap.cpp.i
+	cd /home/fred/cpp_datastructs/src && $(MAKE) -f Datastructures/CMakeFiles/Datastructures.dir/build.make Datastructures/CMakeFiles/Datastructures.dir/heap.cpp.i
 .PHONY : heap.cpp.i
 
 heap.s: heap.cpp.s
@@ -149,7 +149,7 @@ heap.s: heap.cpp.s
 
 # target to generate assembly for a file
 heap.cpp.s:
-	cd /home/fred/min_heap/src && $(MAKE) -f Datastructures/CMakeFiles/Datastructures.dir/build.make Datastructures/CMakeFiles/Datastructures.dir/heap.cpp.s
+	cd /home/fred/cpp_datastructs/src && $(MAKE) -f Datastructures/CMakeFiles/Datastructures.dir/build.make Datastructures/CMakeFiles/Datastructures.dir/heap.cpp.s
 .PHONY : heap.cpp.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/fred/min_heap/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/fred/cpp_datastructs/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

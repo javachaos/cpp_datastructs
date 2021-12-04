@@ -1,1 +1,0 @@
-/bin/x86_64-linux-gnu-g++-9   -Wall -O3 -fopenmp    CMakeFiles/heap.dir/main.cpp.o  -o heap  Datastructures/libDatastructures.a /usr/lib/x86_64-linux-gnu/libboost_timer.so.1.71.0 /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0 

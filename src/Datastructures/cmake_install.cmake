@@ -1,4 +1,4 @@
-# Install script for directory: /home/fred/min_heap/src/Datastructures
+# Install script for directory: /home/fred/cpp_datastructs/src/Datastructures
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

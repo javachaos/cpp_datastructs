@@ -6,5 +6,5 @@ CXX_FLAGS =  -Wall -O3 -fopenmp   -Wall -O3 -fopenmp -std=gnu++11
 
 CXX_DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_TIMER_DYN_LINK
 
-CXX_INCLUDES = -I/home/fred/min_heap/src -I/home/fred/min_heap/src/Datastructures 
+CXX_INCLUDES = -I/home/fred/cpp_datastructs/src -I/home/fred/cpp_datastructs/src/Datastructures 
 

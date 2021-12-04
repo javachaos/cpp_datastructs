@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fred/min_heap/src
+CMAKE_SOURCE_DIR = /home/fred/cpp_datastructs/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fred/min_heap/src
+CMAKE_BINARY_DIR = /home/fred/cpp_datastructs/src
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -94,14 +94,14 @@ Datastructures/clean: Datastructures/CMakeFiles/Datastructures.dir/clean
 CMakeFiles/heap.dir/all: Datastructures/CMakeFiles/Datastructures.dir/all
 	$(MAKE) -f CMakeFiles/heap.dir/build.make CMakeFiles/heap.dir/depend
 	$(MAKE) -f CMakeFiles/heap.dir/build.make CMakeFiles/heap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fred/min_heap/src/CMakeFiles --progress-num=3,4 "Built target heap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fred/cpp_datastructs/src/CMakeFiles --progress-num=3,4 "Built target heap"
 .PHONY : CMakeFiles/heap.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/heap.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fred/min_heap/src/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fred/cpp_datastructs/src/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/heap.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fred/min_heap/src/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fred/cpp_datastructs/src/CMakeFiles 0
 .PHONY : CMakeFiles/heap.dir/rule
 
 # Convenience name for target.
@@ -121,14 +121,14 @@ CMakeFiles/heap.dir/clean:
 Datastructures/CMakeFiles/Datastructures.dir/all:
 	$(MAKE) -f Datastructures/CMakeFiles/Datastructures.dir/build.make Datastructures/CMakeFiles/Datastructures.dir/depend
 	$(MAKE) -f Datastructures/CMakeFiles/Datastructures.dir/build.make Datastructures/CMakeFiles/Datastructures.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fred/min_heap/src/CMakeFiles --progress-num=1,2 "Built target Datastructures"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fred/cpp_datastructs/src/CMakeFiles --progress-num=1,2 "Built target Datastructures"
 .PHONY : Datastructures/CMakeFiles/Datastructures.dir/all
 
 # Build rule for subdir invocation for target.
 Datastructures/CMakeFiles/Datastructures.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fred/min_heap/src/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fred/cpp_datastructs/src/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 Datastructures/CMakeFiles/Datastructures.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fred/min_heap/src/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fred/cpp_datastructs/src/CMakeFiles 0
 .PHONY : Datastructures/CMakeFiles/Datastructures.dir/rule
 
 # Convenience name for target.

@@ -14,6 +14,10 @@ int main(void) {
     unsigned long int j = 0;
     cout << "Hashtable size: ";
     cin >> j;
+    cout << "Print output to stdout? (y/n) ";
+    char c;
+    cin >> c;
+    bool print = (c == 'y');
     HashTable<int, int> ht;
     std::vector<int> vec;
     myfile << "-----------------------------------------" << endl;
@@ -42,7 +46,9 @@ int main(void) {
         if (ht.getCollisions() > 0) {
             cout << "Failed collision: " << ht.getCollisions() << endl;
         }
-        ht.print();
+        if (print) {
+            ht.print();
+        }
         unsigned long int sum = 0;
         auto r = boost::irange(0, (int) j);
         boost::timer::auto_cpu_timer t;
