@@ -1,0 +1,2 @@
+/usr/bin/ar qc libDatastructures.a  CMakeFiles/Datastructures.dir/heap.cpp.o
+/usr/bin/ranlib libDatastructures.a

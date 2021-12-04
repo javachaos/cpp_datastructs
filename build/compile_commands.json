@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/fred/min_heap/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_TIMER_DYN_LINK -I/home/fred/min_heap/build -I/home/fred/min_heap/src/Datastructures   -Wall -O3 -fopenmp   -Wall -O3 -fopenmp -std=gnu++11 -o CMakeFiles/heap.dir/main.cpp.o -c /home/fred/min_heap/src/main.cpp",
+  "file": "/home/fred/min_heap/src/main.cpp"
+},
+{
+  "directory": "/home/fred/min_heap/build/Datastructures",
+  "command": "/bin/x86_64-linux-gnu-g++-9     -Wall -O3 -fopenmp   -Wall -O3 -fopenmp -std=gnu++11 -o CMakeFiles/Datastructures.dir/heap.cpp.o -c /home/fred/min_heap/src/Datastructures/heap.cpp",
+  "file": "/home/fred/min_heap/src/Datastructures/heap.cpp"
+}
+]

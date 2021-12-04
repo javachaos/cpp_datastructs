@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fred/min_heap/src/Datastructures/heap.cpp
+heap.h
+/home/fred/min_heap/src/Datastructures/heap.h
+iostream
+-
+ostream
+-
+limits
+-
+
+/home/fred/min_heap/src/Datastructures/heap.h
+vector
+-
+
