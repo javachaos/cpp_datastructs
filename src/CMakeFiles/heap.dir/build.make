@@ -57,27 +57,27 @@ include CMakeFiles/heap.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/heap.dir/flags.make
 
-CMakeFiles/heap.dir/main.cpp.o: CMakeFiles/heap.dir/flags.make
-CMakeFiles/heap.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fred/cpp_datastructs/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/heap.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/heap.dir/main.cpp.o -c /home/fred/cpp_datastructs/src/main.cpp
+CMakeFiles/heap.dir/AOC7.cpp.o: CMakeFiles/heap.dir/flags.make
+CMakeFiles/heap.dir/AOC7.cpp.o: AOC7.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fred/cpp_datastructs/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/heap.dir/AOC7.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/heap.dir/AOC7.cpp.o -c /home/fred/cpp_datastructs/src/AOC7.cpp
 
-CMakeFiles/heap.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/heap.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fred/cpp_datastructs/src/main.cpp > CMakeFiles/heap.dir/main.cpp.i
+CMakeFiles/heap.dir/AOC7.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/heap.dir/AOC7.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fred/cpp_datastructs/src/AOC7.cpp > CMakeFiles/heap.dir/AOC7.cpp.i
 
-CMakeFiles/heap.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/heap.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fred/cpp_datastructs/src/main.cpp -o CMakeFiles/heap.dir/main.cpp.s
+CMakeFiles/heap.dir/AOC7.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/heap.dir/AOC7.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fred/cpp_datastructs/src/AOC7.cpp -o CMakeFiles/heap.dir/AOC7.cpp.s
 
 # Object files for target heap
 heap_OBJECTS = \
-"CMakeFiles/heap.dir/main.cpp.o"
+"CMakeFiles/heap.dir/AOC7.cpp.o"
 
 # External object files for target heap
 heap_EXTERNAL_OBJECTS =
 
-heap: CMakeFiles/heap.dir/main.cpp.o
+heap: CMakeFiles/heap.dir/AOC7.cpp.o
 heap: CMakeFiles/heap.dir/build.make
 heap: Datastructures/libDatastructures.a
 heap: /usr/lib/x86_64-linux-gnu/libboost_timer.so.1.71.0

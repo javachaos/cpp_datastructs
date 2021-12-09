@@ -22,7 +22,7 @@ namespace Datastructures {
             int getCollisions();
         private:
             void doubleSize();
-            unsigned long int hash(int key);
+            unsigned long int hash(unsigned long int key);
             unsigned long int size_;
             void savetofile(std::vector<std::set<std::pair<K, V>>> vec, std::string filename);
             std::vector<std::set<std::pair<K, V>>> table;

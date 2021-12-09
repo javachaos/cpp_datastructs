@@ -3,9 +3,9 @@ project(heap VERSION 1.0)
 
 SET(CMAKE_BUILD_TYPE distribution)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
-SET(GCC_COVERAGE_COMPILE_FLAGS "-Wall -O3 -fopenmp")
+SET(GCC_COVERAGE_COMPILE_FLAGS "-Wall -O3 -lgmpxx -lgmp -fopenmp")
 MESSAGE("Arch: " ${ARCH})
 MESSAGE("Using compiler: " ${CMAKE_CXX_COMPILER})
 MESSAGE("Using GCC Options: " ${CMAKE_CXX_FLAGS_DISTRIBUTION})
@@ -23,10 +23,10 @@ configure_file (
 
 
 add_subdirectory(Datastructures)
-add_executable (heap main.cpp)
+add_executable (heap AOC7.cpp)
 # add the executable
 #add_executable(heap main.cpp)
-target_link_libraries(heap Datastructures "${Boost_LIBRARIES}")
+target_link_libraries(heap Datastructures gmpxx gmp "${Boost_LIBRARIES}")
 target_include_directories(heap PUBLIC "${PROJECT_BINARY_DIR}"
                            "${Boost_INCLUDE_DIRS}"
                            "${PROJECT_SOURCE_DIR}/Datastructures")

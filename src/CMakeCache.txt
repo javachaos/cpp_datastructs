@@ -238,6 +238,9 @@ boost_chrono_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_chrono-1.71.0
 //The directory containing a CMake configuration file for boost_headers.
 boost_headers_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.71.0
 
+//The directory containing a CMake configuration file for boost_interprocess.
+boost_interprocess_DIR:PATH=boost_interprocess_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for boost_timer.
 boost_timer_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/boost_timer-1.71.0
 

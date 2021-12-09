@@ -136,32 +136,32 @@ Datastructures/fast:
 	$(MAKE) -f Datastructures/CMakeFiles/Datastructures.dir/build.make Datastructures/CMakeFiles/Datastructures.dir/build
 .PHONY : Datastructures/fast
 
-main.o: main.cpp.o
+AOC7.o: AOC7.cpp.o
 
-.PHONY : main.o
+.PHONY : AOC7.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/heap.dir/build.make CMakeFiles/heap.dir/main.cpp.o
-.PHONY : main.cpp.o
+AOC7.cpp.o:
+	$(MAKE) -f CMakeFiles/heap.dir/build.make CMakeFiles/heap.dir/AOC7.cpp.o
+.PHONY : AOC7.cpp.o
 
-main.i: main.cpp.i
+AOC7.i: AOC7.cpp.i
 
-.PHONY : main.i
+.PHONY : AOC7.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/heap.dir/build.make CMakeFiles/heap.dir/main.cpp.i
-.PHONY : main.cpp.i
+AOC7.cpp.i:
+	$(MAKE) -f CMakeFiles/heap.dir/build.make CMakeFiles/heap.dir/AOC7.cpp.i
+.PHONY : AOC7.cpp.i
 
-main.s: main.cpp.s
+AOC7.s: AOC7.cpp.s
 
-.PHONY : main.s
+.PHONY : AOC7.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/heap.dir/build.make CMakeFiles/heap.dir/main.cpp.s
-.PHONY : main.cpp.s
+AOC7.cpp.s:
+	$(MAKE) -f CMakeFiles/heap.dir/build.make CMakeFiles/heap.dir/AOC7.cpp.s
+.PHONY : AOC7.cpp.s
 
 # Help Target
 help:
@@ -173,9 +173,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... heap"
 	@echo "... Datastructures"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... AOC7.o"
+	@echo "... AOC7.i"
+	@echo "... AOC7.s"
 .PHONY : help
 
 

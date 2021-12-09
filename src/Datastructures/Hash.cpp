@@ -74,7 +74,6 @@ namespace Datastructures {
         table.clear();
         size_ = size_ * 2;
         table.resize(size_);
-        #pragma omp parallel for
         for (unsigned long int i = 0; i < this->size_ / 2; i++) {
             auto bucket = oldTable[i];
             for (auto it = bucket.begin(); it != bucket.end(); it++) {
@@ -86,8 +85,9 @@ namespace Datastructures {
     }
 
     template <class K, class V>
-    unsigned long int HashTable<K,V>::hash(int key) {
-        return ((LARGE_PRIME_2 * key + LARGE_PRIME_3) % LARGE_PRIME_2) % this->size_;
+    unsigned long int HashTable<K,V>::hash(unsigned long int key) {
+        //return key % this->size_;
+        return ((23423 * key + 523234) % LARGE_PRIME_3) % this->size_;
     }
 
     template <class K, class V>
